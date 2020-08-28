@@ -1,0 +1,16 @@
+{
+	"author": "Jakub Zawadowicz",
+    "name": "Fake News Classifier",
+	"short-name": "FNC-beta",
+    "description" : "This extension classify articles on a news websites: fake or real. It's main goal is to stop the spread of misinformation online.",
+    "version": "0.0.1",
+	"version-name": "0.0.1 beta",
+	"permissions": ["activeTab", "https://europe-west1-skilled-creek-283412.cloudfunctions.net/TextClassFunction", "https://europe-west1-skilled-creek-283412.cloudfunctions.net/TextClassFunction-1"],
+	"icons":{"16": "icon16.png",
+			 "48": "icon48.png"},
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "Fake_News_App_Extension.html",
+      "default_icon": "icon16.png"
+    }
+}

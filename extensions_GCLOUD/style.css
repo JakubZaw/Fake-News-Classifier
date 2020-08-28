@@ -1,0 +1,104 @@
+body {	
+	text-align: center;
+	min-width: 400px;
+  	max-width: 400px;
+  	position: relative;
+  	vertical-align:middle;
+	overflow: auto;
+	}
+	
+h1 {
+	border-bottom: solid;
+	border-width: 3px;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 1px green;
+	background-image: linear-gradient(to right, rgba(57,255,20,1), rgba(57,255,20,0.1));
+	}		
+	
+#exp {
+	font-size:1.2em;
+	border-bottom: solid;
+	border-width: 2px;
+	padding-bottom: 15px;
+	}
+
+button {
+	border: none;
+	color:inherit;
+	cursor: pointer;
+	font: 1.5em Helvetica Neue, Helvetica, Arial, sans-serif;
+	text-shadow: 1px 1px 1px green;
+	border-radius: 8px;
+	border: 2px solid green;
+	transition-duration: 0.4s
+	}
+
+button:hover {
+	background-color: rgba(57,255,20,1);	
+	opacity: 0.8;
+	}
+
+button:active {
+	background-color: RGB(73, 251, 53);
+	cursor: not-allowed;
+	}	
+
+#clickmelong {
+	margin-bottom: 15px;
+	}
+
+p{
+	font: 1em Verdana, Arial, sans-serif;
+	}	
+
+i{
+	vertical-align:middle;
+}
+
+.creator{	
+	position: absolute;
+	right: 0px;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button span {
+  cursor: pointer;S
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#window2 {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 15px;
+  display: none;
+}
+
+#afterclick {
+	font-size: 1.25em;
+	font-weight: bold;
+}

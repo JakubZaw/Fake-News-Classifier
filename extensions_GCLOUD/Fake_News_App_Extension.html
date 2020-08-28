@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<!-- Head contains information (metadata) that is hidden from the user-->
+  <head>
+	<title>Fake News Classifier Google Extension</title>
+	<!-- Links to my css file -->
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+	<!-- Links to Google free to use icons -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Rest of basic documentation -->
+	<meta name="description" content="Free Fake News Classifier">
+	<meta name="keywords" content="Fake News, Classification, Google Extension, free">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="author" content="Jakub Zawadowicz">
+	<meta charset="UTF-8">
+	</head>
+  <!--Body contains what can be seen by the user -->
+  <body>
+		
+	  <h1 >Fake News Classifier!</h1>
+	  
+	  <p id=exp>After you click "Classify Website" button, website classification starts. Feel free to close the extension and browse the webpage while waiting for the result.</p>  	
+	  <div id="window1">
+	  <p>Quick classification takes about 15s and is less accurate</p>
+	  <button id="clickmeshort" class="button"><span>Classify Website (quick)</span> <i class="material-icons">search</i></button>
+	  <!-- In script there is a link to a JavaScript file popup.js which contains the button functionality-->
+      <script type="text/javascript" src="popup.js" charset="utf-8"></script>
+	  <p>Long classification takes about 60s and is more accurate</p>
+	  <button id="clickme" class="button"><span>Classify Website (long)</span> <i class="material-icons">search</i></button>
+	  <!-- In script there is a link to a JavaScript file popup.js which contains the button functionality-->
+      <script type="text/javascript" src="popup.js" charset="utf-8"></script>
+	  </div>
+	  <div id="window2">
+	  <p id=afterclick>Classification is being executed. Remember that classification is a helpful hint, not a definitive answer and the best way to fight misinformation online is to gain more knowledge.</p>
+	  </div>
+	  <div class="creator">
+	  <p> Created by: Jakub Zawadowicz </p>
+	  </div>
+  </body>
+</html>
