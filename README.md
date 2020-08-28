@@ -1,7 +1,9 @@
 ### Hi there, I'm Jakub Zawadowicz - aka jsz952 👋
 
 ## I'm a student at University Of Birmingham!
--  I’m currently working on a Fake News Classifier Application!
+-  I’m currently working on a Fake News Classifier Application that uses machine learning for fake news detection! 
+	The model that is used inside both .exe and on a server side of Google Extension is taken from user nishitpatel01 
+	and can be found here https://github.com/nishitpatel01/Fake_News_Detection.
 
 
 ### Languages and Tools used in this project:
